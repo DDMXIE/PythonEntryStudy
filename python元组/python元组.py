@@ -19,3 +19,12 @@ if __name__ == '__main__':
     print(tup_tpl)
 
     # 修改元组2:    覆盖修改
+    tup2 = (1, 2)
+    print(tup2)
+
+    # 删除元组
+    tup = ('physics', 'chemistry', 1997, 2000)
+    print(tup)
+    del tup
+    # print('After delete')
+    # print(tup)
