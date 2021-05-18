@@ -8,6 +8,12 @@ if __name__ == '__main__':
     print(np_list1)
     print(type(np_list1))
 
+    # Numpy创建矩阵
+    col = 4
+    index = 3
+    graph = np.matrix([[0] * col] * index)
+    print(graph)
+
     # Numpy原生数组的创建
     # zeros(shape)将创建一个用指定形状用0填充的数组。默认的dtype是float64。
     list_val0 = np.zeros((2, 3))    # 创建两行三列的二维数组
